@@ -1,0 +1,1113 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+.background {
+    width: 100%;
+    height: 135vh;
+    background-image: linear-gradient(rgb(0, 0, 0 , 0.6),rgb(0, 0, 0 , 0.6)),url("../background/DARK_background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    border-bottom:2px solid white;
+}
+
+.back {
+    margin-left: 1vw;
+    margin-right: 1vw;
+    padding-top: 4vh;
+    margin-bottom: 2.3vw;
+    float: left;
+}
+
+.logo {
+    color: red;
+    letter-spacing: -3px;
+    font-size: 6.5vh;
+    margin-left: 2vw;
+    padding-top: 2.8vh;
+    margin-bottom: 2.3vw;
+    margin-left: 1.9vw;
+}
+
+.two_in_one {
+    float: left;
+}
+
+.DARK {
+    width:23vw;
+    height:34.5vw;
+    margin-left: 1.8vw;
+    margin-bottom: 1vw;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.6), 0 6px 20px 0 rgba(255, 255, 255, 0.6);
+}
+
+.DARK_name {
+    color: white;
+    font-weight: bold;
+    margin-top: 0.7%;
+    font-size: 6vh;
+    font-family: tahoma;
+    text-align: center;
+}
+
+table {
+    float: right;
+    margin-right: 4vw;
+    border:2px solid white;
+    border-collapse: collapse;
+    transition: 0.8s;
+}
+
+table:hover {
+    width: 66vw;
+    border:3px solid;
+    border-collapse: collapse;
+    margin-right: 3.5vh;
+    transition: 0.8s;
+}
+
+th , td {
+    background-color: rgba(255, 0, 0, 0.4);
+    border:1px solid white;
+    height: 3vw;
+    color: white;
+    font-family: tahoma;
+}
+
+th:hover , td:hover {
+    background-color: rgba(231, 0, 0, 0.685);
+    border:1px solid black;
+    color: yellow;
+}
+
+th {
+    width: 20vw;
+    font-size: 1.15vw;
+}
+
+td {
+    width: 45vw;
+    padding-left: 12px;
+}
+
+.RES {
+    color: white;
+    margin-top: 2.8vw;
+    margin-left: 4vw;
+    margin-right: 4vw;
+    text-align: center;
+    font-size: 1.5vw;
+    float: left;
+}
+
+.background2 {
+    width: 100%;
+    height: 260vh;
+    background-image: linear-gradient(rgb(0, 0, 0 , 0.6),rgb(0, 0, 0 , 0.6)),url("../background/background4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.PHOTOS {
+    text-align: center;
+    color: white;
+    padding-top: 2%;
+    font-size: 3vw;
+    font-family: tahoma;
+}
+
+.DARK1 {
+    float: left;
+    border: 1px solid white;
+    width:29vw;
+    height:17.5vw;
+    margin: 2% 1.1vw 2% 1.1vw;
+    transition: 0.7s;
+}
+
+.DARK1:hover {
+    margin-left: 1%;
+    width: 32vw;
+    height: 19.5vw;
+    transition: 0.7s;
+}
+
+.DARK2{
+    float: left;
+    border: 1px solid white;
+    width:29vw;
+    height:17.5vw;
+    margin: 2% 1.1vw 2% 1.1vw;
+    transition: 0.7s;
+}
+
+.DARK2:hover {
+    width: 32vw;
+    height: 19.5vw;
+    margin-left: 1.5%;
+    transition: 0.7s;
+}
+
+.DARK3 {
+    float: left;
+    border: 1px solid white;
+    width:29vw;
+    height:17.5vw;
+    margin: 2% 1.1vw 2% 1.1vw;
+    transition: 0.7s;
+}
+
+.DARK3:hover {
+    width: 32vw;
+    height: 19.5vw;
+    margin-left: 1.5%;
+    transition: 0.7s;
+}
+
+.trailer {
+    clear: both;
+    text-align: center;
+    color: white;
+    font-size: 4vw;
+    font-family: tahoma;
+    padding-top: 5%;
+}
+
+video {
+    margin-top: 1%;
+    width:75%;
+}
+
+.ACT {
+    text-align: center;
+    color: white;
+    padding-top: 5%;
+    font-size: 3vw;
+    font-family: tahoma;
+}
+
+.ACT1_img , .ACT2_img , .ACT3_img , .ACT4_img , .ACT5_img , .ACT6_img {
+    width: 160px;
+    height: 160px;
+    border: 2px solid white;
+    border-radius: 50%;
+    margin-right: 0.8%;
+}
+
+.ACT1 {
+    margin-top: 1%;
+    margin-left: 6%;
+    float: left;
+}
+
+.ACT2 {
+    margin-top: 1%;
+    float: left;
+    margin-left: 27%;
+    margin-right: 25%;
+}
+
+.ACT3 {
+    margin-top: 1%;
+    float: left;
+    margin-right: 6%;
+}
+
+.ACT4 {
+    margin-top: 1%;
+    margin-left: 6%;
+    float: left;
+}
+
+.ACT5 {
+    float: left;
+    margin-top: 1%;
+    margin-left: 27%;
+    margin-right: 25%;
+}
+
+.ACT6 {
+    margin-top: 1%;
+    float: left;
+    margin-right: 6%;
+}
+
+.ACT_name {
+    text-align: center;
+    color: white;
+    padding-top: 2%;
+}
+
+.name_in_movie {
+    text-align: center;
+    color: red;
+    padding-top: 1%;
+}
+
+/* assistance part */
+#assistance {
+    width: 100%;
+    height: 370px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-top: 3px solid white;
+    padding-top: 10px;
+}
+
+.logo2 {
+    color: red;
+    letter-spacing: -3px;
+    font-size: 45px;
+    margin-left: 4vw;
+    font-weight: bold;
+    margin-top: 20px
+}
+
+.type1 , .type2 , .type3 {
+    font-size: 1.2vw;
+    color: white;
+    text-decoration: none;
+    font-family: monospace;
+    letter-spacing: 1.5px;
+    line-height: 35px;
+    margin-left: 2vw;
+    display: inline-block;
+}
+
+.type4 , .type5 , .type6 {
+    font-size: 1.2vw;
+    color: white;
+    text-decoration: none;
+    font-family: monospace;
+    letter-spacing: 1.5px;
+    line-height: 35px;
+    margin-left: 2vw;
+    display: inline-block;
+}
+
+.ques {
+    color: red;
+    font-size: 1.6vw;
+    margin-left: 2vw;
+}
+
+.Aprop {
+    font-family: monospace;
+    float: right;
+    color: white;
+    margin-right: 40vw;
+    font-size: 2vw;
+}
+
+.Aprop_text {
+    line-height: 2;
+    text-transform: capitalize;
+    font-style:oblique;
+    float: right;
+    color: white;
+    margin: 25px 10vw 0 0;
+    font-size: 15px;
+}
+
+.SM {
+    float: right;
+    margin-right: 30vw;
+}
+
+.SM1 {
+    margin-right: 4vw;
+}
+
+.line {
+    margin-top: 30px;
+    background: white;
+    width: 80%;
+    height: 2px;
+    border-radius: 20%;
+}
+
+.copyright {
+    margin: 25px 0 0 10px;
+    text-transform: capitalize;
+    float: left;
+    color: white;
+    font-size: 16px;
+}
+
+.morocco {
+    margin: 10px 40px 0 0;
+    padding: 5px;
+    width: 100px;
+    float: right;
+    border: 1px solid red;
+}
+
+.morocco_flag {
+    float: left;
+}
+
+.morocco_name {
+    color: white;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.language {
+    margin-top: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    color: white;
+    float: right;
+    border:1px solid red;
+}
+
+/* assistance part */
+
+
+/* responsive screen */
+
+@media screen and (max-width:1385px) {
+    .background2 {
+        height:245vh;
+    }
+    
+    .ACT3, .ACT6{
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width:1300px) {
+    table {
+        margin-right: 3vw;
+    }
+    
+    td , th {
+        height: 4vw;
+    }
+
+    .DARK {
+        width:25.5vw;
+        height:39.5vw;
+        margin-left: 1.2vw;
+    }
+
+    .ACT2 , .ACT5{
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+}
+
+@media screen and (max-width:1286px) {
+    .background2 {
+        height: 230vh;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .Aprop_text {
+        margin-right: 4vw;
+    }
+}
+
+@media screen and (max-width:1180px) {
+    .background2 {
+        height: 214vh;
+    }
+    
+    td , th {
+        height: 4.3vw;
+    }
+
+    .DARK {
+        width:26vw;
+        margin-top: 2vw;
+    }
+
+    .RES {
+        font-size: 1.7vw;
+    }
+
+    .ACT2 , .ACT5{
+        margin-left: 22%;
+        margin-right: 25%;
+    }
+}
+
+@media screen and (max-width:1100px) {
+    .Aprop_text {
+        margin-right: 2vw;
+        font-size: 13.5px;
+    }
+
+    .type1 , .type2 , .type3 , .type4 , .type5 , .type6 {
+        font-size: 1.35vw;
+    }
+}
+
+@media screen and (max-width:1090px) {
+    .ACT2 , .ACT5{
+        margin-left: 21%;
+        margin-right: 22%;
+    }
+}
+
+@media screen and (max-width:1052px) {
+    .background {
+        height: 120vh;
+    }
+
+    .DARK {
+        margin-top: 2vw;
+    }
+
+    .DARK_name {
+        font-size: 5.3vh;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .background2 {
+        height: 190vh;
+    }
+ 
+    .ACT2 , .ACT5{
+        margin-left: 19%;
+        margin-right: 20%;
+    }
+}
+
+@media screen and (max-width:976px) {
+    table {
+        width: 60vw;
+    }
+
+    table:hover {
+        width: 62vw;
+    }
+
+    td , th {
+        height: 4.6vw;
+    }
+
+    th {
+        width: 18vw;
+    }
+    
+    td {
+        width: 42vw;
+    }
+
+    .two_in_one {
+        margin-left: 1.6vw;
+    }
+
+    .DARK {
+        margin-top: 2vw;
+        width:28vw;
+        height:44vw;
+    }
+
+    .RES {
+        font-size: 1.8vw;
+    }
+}
+
+@media screen and (max-width:962px) {
+    #assistance {
+        height: 390px;
+    }
+}
+
+@media screen and (max-width:940px) {
+    .ACT2 , .ACT5{
+        margin-left: 17.5%;
+        margin-right: 19%;
+    }
+}
+
+@media screen and (max-width:890px) {
+    .ACT2 , .ACT5{
+        margin-left: 16%;
+        margin-right: 18%;
+    }    
+}
+
+@media screen and (max-width:864px) {
+   .two_in_one {
+        margin-left: 0.5vw;
+   }
+   
+    .DARK {
+        margin-top: 2.7vw;
+        width:30vw;
+        height:47vw;
+    }
+    
+    .DARK_name {
+        font-size: 4.8vh;
+    }
+
+    td , th {
+        height: 5vw;
+    }
+
+    th {
+        font-size: 1.25vw;
+    }
+
+    td {
+        font-size: 1.75vw;
+    }
+
+    .RES {
+        font-size: 2vw;
+    }
+
+    #assistance {
+        height: 420px;
+    }
+}
+
+@media screen and (max-width:850px) {
+    .background2 {
+        height: 230vh;
+    }
+    
+    .PHOTOS {
+        font-size: 4vw;
+    }
+
+    .DARK1 {
+        float: left;
+        width:42vw;
+        height:26vw;
+        margin: 2% 1.1vw 2% 4vw;
+    }
+    
+    .DARK1:hover {
+        margin-left: 1%;
+        width: 46vw;
+        height: 29vw;
+    }
+    
+    .DARK2{
+        float: right;
+        width:42vw;
+        height:26vw;
+        margin: 2% 4vw 2% 1.1vw;
+    }
+    
+    .DARK2:hover {
+        width: 46vw;
+        height: 29vw;
+        margin-right: 1.5%;
+    }
+    
+    .DARK3 {
+        clear: left;
+        width:42vw;
+        height:26vw;
+        margin: 2% 0 2% 28vw;
+    }
+    
+    .DARK3:hover {
+        width: 46vw;
+        height: 29vw;
+        margin-left: 27vw;
+    }
+
+    video {
+        width: 90%;
+    }
+
+    .ACT2 , .ACT5{
+        margin-left: 14.5%;
+        margin-right: 16%;
+    }
+}
+
+@media screen and (max-width:806px) {
+    .copyright {
+        font-size: 13px;
+    }
+
+    .morocco {
+        margin-right: 6px;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .background2 {
+        height: 290vh;
+    }
+    
+    .trailer {
+        font-size: 5vw;
+    }
+
+    .ACT {
+        font-size: 5vw;
+    }
+
+    .ACT1 , .ACT3 , .ACT5 {
+        margin: 5% 0 0 10%;
+    }
+    
+    .ACT1_img , .ACT3_img , .ACT5_img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .ACT2 , .ACT4 , .ACT6 {
+        margin: 5% 4% 0 30%;
+    }
+
+    .ACT2_img , .ACT4_img , .ACT6_img {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width:795px) {
+    #assistance {
+        height: 470px;
+    }
+    
+    .Aprop {
+        margin-right: 42vw;
+        font-size: 3vw;
+    }
+
+    .Aprop_text {
+        float: left;
+        margin-right: 0;
+        margin-left: 4vw;
+        margin-bottom: 20px;
+    }
+
+    .type {
+        margin-left: 14vw;
+    }
+
+    .type1 , .type2 , .type3 , .type4 , .type5 , .type6 {
+        font-size: 16px;
+        margin-left: 8vw;
+    }
+
+    .ques {
+        font-size: 2.2vw;
+    }
+
+    .SM {
+        margin-right: 12vw;
+    }
+}
+
+@media screen and (max-width:756px) {
+    .logo {
+        font-size: 5.8vh;
+        padding-top: 2.5vh;
+    }
+
+    table {
+        width: 57vw;
+        margin-right: 1.5vw;
+    }
+
+    table:hover {
+        margin-right: 1.5vw;
+        width: 60vw;
+    }
+
+    td , th {
+        height: 6vw;
+    }
+
+    th {
+        width: 15vw;
+    }
+    
+    td {
+        width: 40vw;
+    }
+
+    .DARK {
+        margin-top: 3vw;
+        width:34vw;
+        height:52vw;
+    }
+
+    .background2 {
+        height: 270vh;
+    }
+
+    .ACT2 , .ACT4 , .ACT6 {
+        margin: 5% 3% 0 25%;
+    }    
+}
+
+@media screen and (max-width:680px) {
+    #assistance {
+        height: 520px;
+    }
+
+    .language , .morocco {
+        clear: left;
+    }
+
+    .ques {
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width:675px) {
+    .ACT2 , .ACT4 , .ACT6 {
+        margin: 5% 2% 0 18%;
+    }    
+}
+
+@media screen and (max-width:612px) {
+    .background {
+        height: 300vw;
+    }
+    
+    .two_in_one {
+        margin-left: 16%;
+        margin-bottom: 7vw;
+        margin-top: 2.7vw;
+    }
+    
+    .DARK {
+        width:65vw;
+        height:94vw;
+    }
+
+    .DARK_name {
+        margin-top: 1.2vw;
+        font-size: 7vh;
+    }
+
+    table {
+        clear: left;
+        margin-top: 5%;
+        margin-right: 5.5%;
+        width: 85vw;
+    }
+
+    table:hover {
+        width: 85vw;
+        margin-right: 6%;
+    }
+
+    td , th {
+        height: 8vw;
+    }
+    
+    th {
+        font-size: 2.3vw;
+        width: 18vw;
+    }
+
+    td {
+        font-size: 2.6vw;
+    }
+
+    .RES {
+        margin-left: 7vw;
+        margin-right: 7vw;
+        margin-top: 7%;
+        font-size: 2.7vw;
+    }
+    
+    .PHOTOS {
+        font-size: 8vw;
+    }
+}
+
+@media screen and (max-width:610px) {
+    .background2 {
+        height: 250vh;
+    }
+    
+    .trailer {
+        font-size: 6vw;
+    }
+
+    .ACT {
+        font-size: 7vw;
+    }
+
+    .ACT1 , .ACT3 , .ACT5 {
+        margin: 5% 0 0 5%;
+    }
+    
+    .ACT2 , .ACT4 , .ACT6 {
+        margin: 5% 1% 0 13%;
+    }
+}
+
+@media screen and (max-width:577px) {
+    #assistance {
+        height: 540px;
+    }
+
+    .SM {
+        margin-right: 5vw;
+    }
+}
+
+@media screen and (max-width:540px) {
+    .background2 {
+        height: 210vh;
+    }
+    
+    .ACT1_img , .ACT2_img , .ACT3_img , .ACT4_img , .ACT5_img , .ACT6_img {
+        width: 130px;
+        height: 130px;
+    }
+
+    .ACT1 , .ACT3 , .ACT5 {
+        margin: 5% 0 0 14vw;
+    }
+    
+    .ACT3 {
+        clear: left;
+    }
+
+    .ACT2 , .ACT4 , .ACT6 {
+        margin-left: 16vw;
+    }
+}
+
+@media screen and (max-width:460px) {
+    #assistance {
+        height: 580px;
+    }
+    
+    .Aprop {
+        font-size: 21px;
+        margin-right: 28vw;
+    }
+
+    .type {
+        margin-left: 5vw;
+    }
+
+    .type1 , .type2 , .type3 , .type4 , .type5 , .type6 {
+        line-height: 12px;
+    }
+
+    .ques {
+        margin-left: 10vw;
+    }
+
+    .SM {
+        float: left;
+        margin: 14px 0 10px 35vw;
+    }
+
+    .line {
+        margin-top: 55px;
+    }
+
+}
+
+@media screen and (max-width:455px) {
+    .background2 {
+        height: 190vh;
+    }
+    
+    .ACT1 , .ACT3 , .ACT5 {
+        margin: 5% 0 0 10vw;
+    }
+
+    .ACT2 , .ACT4 , .ACT6 {
+        margin-left: 14vw;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .DARK_name {
+        font-size: 5vh;
+    }
+
+    .DARK {
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width:420px) {
+    .ACT1 , .ACT3 , .ACT5 {
+        margin: 5% 0 0 6vw;
+    }
+
+    .ACT2 , .ACT4 , .ACT6 {
+        margin-left: 14vw;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .background {
+        height: 400vw;
+    }
+    
+    .two_in_one {
+        margin-left: 8.5%;
+    }
+
+    .DARK {
+        width:77vw;
+        height:114vw;
+    }
+
+    .DARK_name {
+        font-size: 5vh;
+    }
+
+    table {
+        width: 87vw;
+        margin-right: 4.5%;
+    }
+
+    td , th {
+        height: 11vw;
+    }
+
+    th {
+        font-size: 2.5vw;
+        width: 19vw;
+    }
+
+    td {
+        font-size: 2.8vw;
+    }
+
+    .RES {
+        margin-top: 7%;
+        font-size: 3.8vw;
+    }
+
+    .background2 {
+        height: 170vh;
+    }
+
+    .ACT1_img , .ACT2_img , .ACT3_img , .ACT4_img , .ACT5_img , .ACT6_img {
+        width: 115px;
+        height: 115px;
+    }
+
+    .ACT_name {
+        font-size: 13px;
+    }
+
+    .name_in_movie {
+        font-size: 13px;
+    }
+
+    .ACT1 , .ACT3 , .ACT5 {
+        margin: 5% 0 0 8vw;
+    }
+
+    .ACT2 , .ACT4 , .ACT6 {
+        margin-left: 15vw;
+    }
+
+    .type1 , .type2 , .type3 , .type4 , .type5 , .type6 {
+        margin-left: 20px;
+    }
+
+    .type {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width:360px) {    
+    .DARK1 {
+        width:39vw;
+        height:24vw;
+        margin: 2% 1vw 2% 4vw;
+    }
+    
+    .DARK1:hover {
+        margin-left: 1%;
+        width: 42vw;
+        height: 26vw;
+    }
+    
+    .DARK2{
+        width:39vw;
+        height:24vw;
+        margin: 2% 4vw 2% 1.1vw;
+    }
+    
+    .DARK2:hover {
+        width: 42vw;
+        height: 26vw;
+        margin-right: 1.5%;
+    }
+    
+    .DARK3 {
+        width:39vw;
+        height:24vw;
+        margin: 2% 0 2% 28vw;
+    }
+    
+    .DARK3:hover {
+        width: 42vw;
+        height: 26vw;
+        margin-left: 27vw;
+    }
+    
+    .background2 {
+        height: 155vh;
+    }
+
+    .ACT1 , .ACT3 , .ACT5 {
+        margin: 5% 0 0 10vw;
+    }
+
+    .ACT2 , .ACT4 , .ACT6 {
+        margin-left: 10vw;
+    }
+}
+
+@media screen and (max-width:334px) {
+    .ACT1 , .ACT3 , .ACT5 {
+        margin: 5% 0 0 5vw;
+    }
+
+    .ACT2 , .ACT4 , .ACT6 {
+        margin-left: 8vw;
+    }
+}
+
+@media screen and (max-width:306px) {
+    .background2 {
+        height: 150vh;
+    }
+
+    .ACT1 , .ACT3 , .ACT5 {
+        margin: 5% 0 0 1vw;
+    }
+
+    .ACT2 , .ACT4 , .ACT6 {
+        margin-left: 5.5vw;
+    }
+}
+
+@media screen and (max-width:288px) {
+    .background2 {
+        height: 135vh;
+    }
+
+    .ACT1 , .ACT3 , .ACT5 {
+        margin: 5% 0 0 0;
+    }
+
+    .ACT2 , .ACT4 , .ACT6 {
+        margin-left: 1.5vw;
+    }
+}

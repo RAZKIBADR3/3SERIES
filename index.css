@@ -1,0 +1,594 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    scroll-behavior:smooth;
+}
+
+/* BACKGROUND */
+#background {
+    padding-top: 1vw;
+    width: 100%;
+    height: 120vh;
+    background-image: linear-gradient(rgb(0, 0, 0 , 0.75),rgb(0, 0, 0 , 0.75)),url("../background/background2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+/* BACKGROUND */
+
+
+/* categoré */
+.ctgre {
+    width: 100%;
+    padding-top: 1.8vw;
+    top: 0;
+    position: fixed;
+    z-index: 999;
+}
+
+.logo {
+    float: left;
+    color: red;
+    letter-spacing: -3px;
+    font-size: 3.2vw;
+    margin-left: 2vw;
+}
+
+.HOME_text {
+    background-color: red;
+    padding: 0.8vw;
+    display: inline;
+    margin-top: 0.3vw;
+    transition: 0.5s;
+}
+
+.HOME_text:hover {
+    color: black;
+    transition: 0.5s;
+}
+
+
+li {
+    list-style: none;
+    margin-left: 40vw;
+}
+
+li a {
+    margin: 2%;
+    text-decoration: none;
+    color: white;
+    float: left;
+    font-size: 1.4vw;
+}
+
+.BREAKING_BAD_text:link , .BREAKING_BAD_text:visited {
+    transition: 0.5s;
+    position: relative;
+}
+
+.BREAKING_BAD_text:hover {
+    border-bottom: RED solid 2px;
+    padding-bottom: 12px;
+    color: red;
+    transition: 0.5s;
+    position: relative;
+}
+
+.GAME_OF_THRONES_text:link , .GAME_OF_THRONES_text:visited {
+    transition: 0.5s;
+    position: relative;
+}
+
+.GAME_OF_THRONES_text:hover {
+    border-bottom: RED solid 2px;
+    padding-bottom: 12px;
+    color: red;
+    transition: 0.5s;
+    position: relative;
+}
+
+.DARK_text:link , .DARK_text:visited {
+    transition: 0.5s;
+    position: relative;
+}
+
+.DARK_text:hover {
+    border-bottom: RED solid 2px;
+    padding-bottom: 12px;
+    color: red;
+    transition: 0.5s;
+    position: relative;
+}
+
+.HELP_text:link , .HELP_text:visited {
+    border-bottom: red solid 2px;
+    padding-bottom: 7px;
+    transition: 0.5s;
+    position: relative;
+}
+
+.HELP_text:hover {
+    border-bottom: red solid 2px;
+    padding-bottom: 14px;
+    color: red;
+    transition: 0.5s;
+    position: relative;
+}
+
+/* categoré */
+
+
+/* title */
+.title {
+    text-align: center;
+    font-size: 5.5vw;
+    color: white;
+    margin-top: 18vw;
+    transition: 0.5s;
+}
+
+.title:hover {
+    font-size: 6.5vw;
+    transition: 0.5s;
+}
+/* title */
+
+
+/* series background */
+.blur {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(8px);
+    height: 100%;
+	width: 100%;
+}
+
+.background_BB {
+    width: 100%;
+    height: 120vh;
+    position: absolute;
+    background-image: url("../background/BB_background.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.background_GOT {
+    width: 100%;
+    height: 120vh;
+    background-image: url("../background/GOT_background.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.background_DARK {
+    width: 100%;
+    height: 120vh;
+    background-image: url("../background/DARK_background.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+/* series background */
+
+
+/* series image */
+#BB {
+    margin-top: 20vh;
+    transition: 0.5s;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.6), 0 6px 20px 0 rgba(255, 255, 255, 0.6);
+    transition: 0.5s;
+}
+
+#BB:hover {
+    margin-top: 20vh;
+    width: 368px;
+    height: 553px;
+    filter:brightness(72%);
+    transition: 0.5s;
+}
+
+#GOT {
+    margin-top: 20vh;
+    transition: 0.5s;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.6), 0 6px 20px 0 rgba(255, 255, 255, 0.6);
+    transition: 0.5s;
+}
+
+#GOT:hover {
+    margin-top: 20vh;
+    width: 368px;
+    height: 553px;
+    filter:brightness(72%);
+    transition: 0.5s;
+}
+
+#DARK {
+    margin-top: 20vh;
+    transition: 0.5s;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.6), 0 6px 20px 0 rgba(255, 255, 255, 0.6);
+    transition: 0.5s;
+}
+
+#DARK:hover {
+    margin-top: 20vh;
+    width: 368px;
+    height: 553px;
+    filter: brightness(72%);
+    transition: 0.5s;
+}
+
+/* series image */
+
+
+/* series name */
+.BB_name {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    margin-top: 2%;
+    font-size: 6vh;
+    font-family: tahoma;
+}
+
+.GOT_name {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    margin-top: 2%;
+    font-size: 6vh;
+    font-family: tahoma;
+}
+
+.DARK_name {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    margin-top: 2%;
+    font-size: 6vh;
+    font-family: tahoma;
+}
+/* series name */
+
+
+/* assistance part */
+#assistance {
+    width: 100%;
+    height: 370px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-top: 3px solid white;
+    padding-top: 10px;
+}
+
+.logo2 {
+    color: red;
+    letter-spacing: -3px;
+    font-size: 45px;
+    margin-left: 4vw;
+    font-weight: bold;
+    margin-top: 20px
+}
+
+.type1 , .type2 , .type3 {
+    font-size: 1.2vw;
+    color: white;
+    text-decoration: none;
+    font-family: monospace;
+    letter-spacing: 1.5px;
+    line-height: 35px;
+    margin-left: 2vw;
+    display: inline-block;
+}
+
+.type4 , .type5 , .type6 {
+    font-size: 1.2vw;
+    color: white;
+    text-decoration: none;
+    font-family: monospace;
+    letter-spacing: 1.5px;
+    line-height: 35px;
+    margin-left: 2vw;
+    display: inline-block;
+}
+
+.ques {
+    color: red;
+    font-size: 1.6vw;
+    margin-left: 2vw;
+}
+
+.Aprop {
+    font-family: monospace;
+    float: right;
+    color: white;
+    margin-right: 40vw;
+    font-size: 2vw;
+}
+
+.Aprop_text {
+    line-height: 2;
+    text-transform: capitalize;
+    font-style:oblique;
+    float: right;
+    color: white;
+    margin: 25px 10vw 0 0;
+    font-size: 15px;
+}
+
+.SM {
+    float: right;
+    margin-right: 30vw;
+}
+
+.SM1 {
+    margin-right: 4vw;
+}
+
+.line {
+    margin-top: 30px;
+    background: white;
+    width: 80%;
+    height: 2px;
+    border-radius: 20%;
+}
+
+.copyright {
+    margin: 25px 0 0 10px;
+    text-transform: capitalize;
+    float: left;
+    color: white;
+    font-size: 16px;
+}
+
+.morocco {
+    margin: 10px 40px 0 0;
+    padding: 5px;
+    width: 100px;
+    float: right;
+    border: 1px solid red;
+}
+
+.morocco_flag {
+    float: left;
+}
+
+.morocco_name {
+    color: white;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.language {
+    margin-top: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    color: white;
+    float: right;
+    border:1px solid red;
+}
+
+/* assistance part */
+
+
+/* responsive screen */
+@media screen and (max-width:1200px) {
+    .Aprop_text {
+        margin-right: 4vw;
+    }
+}
+
+@media screen and (max-width:1100px) {
+    .Aprop_text {
+        margin-right: 2vw;
+        font-size: 13.5px;
+    }
+
+    .type1 , .type2 , .type3 , .type4 , .type5 , .type6 {
+        font-size: 1.35vw;
+    }
+}
+
+@media screen and (max-width:962px) {
+    #assistance {
+        height: 390px;
+    }
+}
+
+@media screen and (max-width:864px) {
+    #assistance {
+        height: 420px;
+    }
+}
+
+@media screen and (max-width:806px) {
+    .copyright {
+        font-size: 13px;
+    }
+
+    .morocco {
+        margin-right: 6px;
+    }
+}
+
+@media screen and (max-width:795px) {
+    #assistance {
+        height: 470px;
+    }
+    
+    .Aprop {
+        margin-right: 42vw;
+        font-size: 3vw;
+    }
+
+    .Aprop_text {
+        float: left;
+        margin-right: 0;
+        margin-left: 4vw;
+        margin-bottom: 20px;
+    }
+
+    .type {
+        margin-left: 14vw;
+    }
+
+    .type1 , .type2 , .type3 , .type4 , .type5 , .type6 {
+        font-size: 16px;
+        margin-left: 8vw;
+    }
+
+    .ques {
+        font-size: 2.2vw;
+    }
+
+    .SM {
+        margin-right: 12vw;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .logo {
+        letter-spacing: -2px;
+        font-size: 6.5vw;
+        margin-left: 2vw;
+    }
+
+    li a {
+        font-size: 3.8vw;
+        padding-top: 2%;
+        margin-right: 4vw;
+        margin-top: 1.5vw;
+    }
+
+    ul {
+        padding-top: 0.5vw;
+        margin-left: 30vw;
+        display: inline-block;
+        position:absolute;
+    }
+    
+    .title {
+        font-size: 10vw;
+        margin-top: 60vw;
+    }
+
+    .title:hover {
+        font-size: 12vw;
+    }
+}
+
+@media screen and (max-width:680px) {
+    #assistance {
+        height: 520px;
+    }
+
+    .language , .morocco {
+        clear: left;
+    }
+
+    .ques {
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width:577px) {
+    #assistance {
+        height: 540px;
+    }
+
+    .SM {
+        margin-right: 5vw;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .logo {
+        font-size: 9vw;
+    }
+    
+    li a {
+        font-size: 4vw;
+        margin-right: 3vw;
+        margin-top: 1.6vw;
+    }
+
+    ul {
+        padding-top: 0.4vw;
+        margin-left: 26vw;
+    }
+    
+    .title {
+        padding-top: 20vw;
+    }
+
+    #BB , #GOT , #DARK {
+        width: 80vw;
+        height: 120vw;
+    }
+
+    #BB:hover , #GOT:hover , #DARK:hover {
+        width: 85vw;
+        height: 128vw;
+    }
+
+    .BB_name , .GOT_name , .DARK_name {
+        font-size: 9vw;
+    }
+
+}
+
+@media screen and (max-width:460px) {
+    #assistance {
+        height: 580px;
+    }
+    
+    .Aprop {
+        font-size: 21px;
+        margin-right: 28vw;
+    }
+
+    .type {
+        margin-left: 5vw;
+    }
+
+    .type1 , .type2 , .type3 , .type4 , .type5 , .type6 {
+        line-height: 12px;
+    }
+
+    .ques {
+        margin-left: 10vw;
+    }
+
+    .SM {
+        float: left;
+        margin: 14px 0 10px 35vw;
+    }
+
+    .line {
+        margin-top: 55px;
+    }
+
+}
+
+@media screen and (max-width:400px) {
+    #background , .background_BB , .background_GOT , .background_DARK {
+        height: 100vh;
+    }
+
+    #BB , #GOT , #DARK , #BB:hover , #GOT:hover , #DARK:hover{
+        margin-top: 15vh;
+    }
+
+    .type1 , .type2 , .type3 , .type4 , .type5 , .type6 {
+        margin-left: 20px;
+    }
+
+    .type {
+        margin-left: 0;
+    }
+}
+/* responsive screen */

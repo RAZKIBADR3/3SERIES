@@ -1,0 +1,801 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+/* BACKGROUND */
+.background {
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+}
+
+.background1 {
+    width: 100%;
+    height: 3vh;
+    background-color: white;
+}
+
+.background_serie {
+    width: 100%;
+    height: 74vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) , url('../background/BB_background2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+
+.div-line {
+    height: 5px;
+    background-color: #222222;
+}
+
+.background_body1 {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.95) , rgba(255, 255, 255, 0.4) , rgba(255, 255, 255, 0.9) ) , url('../background/background2.jpg');
+    height: fit-content;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.background_body2 {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.8) , rgba(255, 255, 255, 0.3) ) , url('../background/background2.jpg');
+    height: fit-content;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* BACKGROUND */
+
+
+/* logo and button*/
+.ctgre {
+    width: 100%;
+    height: 85px;
+    z-index: 99;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    position: fixed;
+}
+
+.logo {
+    width: fit-content;
+    padding-top: 18px;
+}
+
+.logo > span {
+    margin-left: 34px;
+    font-family:'Haettenschweiler';
+    color: red;
+    letter-spacing: 2px;
+    cursor: pointer;
+    font-size: 3.6vw;
+}
+
+.logo + div {
+    display: flex;
+    align-items: center;
+    border: 2px solid red;
+    border-radius: 16px;
+    width: fit-content;
+    height: 40px;
+    margin-right: 20px;
+    margin-top: 20px;
+    transition: 0.7s background-color;
+}
+
+.logo + div > a {
+    font-family: cursive;
+    color: red;
+    text-decoration: none;
+    padding: 20px 20px;
+    font-size: 20px;
+    transition: 0.5s color;
+}
+
+.logo + div:hover {
+    background-color: red;
+}
+
+.logo + div:hover a {
+    color: white;
+}
+/* logo and button*/
+
+
+.background_serie > .div1 {
+    color: white;
+    width: 70%;
+    display: flex;
+    flex-direction: column; 
+}
+
+.div1 > .title {
+    height: 35%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div1 h2 {
+    font-size:5vw;
+    font-family: 'Haettenschweiler';
+    font-weight: lighter;
+    letter-spacing: 16px;
+} 
+
+.div1 > .text {
+    width: 100%;
+    display: flex;
+    height: fit-content;
+    padding: 50px 25px;
+    align-items: center;
+}
+
+.div1 > .text > p {
+    font-size: 1.25vw;
+}
+
+.background_serie > .div2 {
+    color: white;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div2 > img {
+    cursor: pointer;
+    width: 260px;
+    height: 360px;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.6), 0 6px 20px 0 rgba(255, 255, 255, 0.6);
+    transition: 0.7s transform , 0.7s filter;
+}
+
+.div2 > img:hover {
+    transform: scale(1.1);
+    filter:brightness(72%);
+}
+
+.table_parent {
+    height: fit-content;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table {
+    width: 98%;
+}
+
+th , td {
+    height: 50px;
+}
+
+.background_body1 > h1 , .background_body2 > h1{
+    text-align: center;
+    font-family: 'Haettenschweiler';
+    letter-spacing: 5px;
+    padding: 20px;
+    color: red;
+}
+
+.photo_parent {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 0;
+    width: 100%;
+    height: fit-content;
+}
+
+.item1 , .item2 , .item3 {
+    display: flex;
+    justify-content: center;
+    width: 32%;
+    height: fit-content;
+}
+
+.photo_parent img {
+    width: 31vw;
+    height: auto;
+    transition: 0.5s transform;
+    cursor: pointer;
+}
+
+.photo_parent img:hover {
+    transform: scale(1.3);
+    z-index: 10;
+}
+
+.video_parent {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+}
+
+video {
+    border: 2px solid black;
+    width: 75vw;
+}
+
+.background_body2 > h1 {
+    padding: 0;
+    margin: 0;
+    padding-top: 70px;
+}
+
+.acteurs_parent {
+    min-height: 80vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.acteurs_parent > div {
+    width: 26%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.acteurs_parent img {
+    width: 11vw;
+    border: 2px solid red;
+    border-radius: 50%;
+}
+
+.acteurs_parent p {
+    margin: 0;
+    padding: 0px 0;
+    color: black;
+    font-family: cursive;
+}
+
+.acteurs_parent img + p + p {
+    color: red;
+}
+
+
+
+/*footer*/
+footer {
+    background-color: black;
+    min-height: 55vh;
+    border-top: 2px solid red;
+}
+
+.web-logo {
+    width: 10%;
+    margin-left: 30px;
+    padding: 20px 0 0 0;
+}
+
+.web-logo > img {
+    height: 5vw;
+    width: auto;
+}
+
+.alldiv {
+    display: flex;
+    justify-content: space-evenly;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.alldiv h2 {
+    font-family: 'Haettenschweiler';
+    letter-spacing: 4px;
+    font-size: 24px;
+}
+
+footer .div1 {
+    width: 32%;
+    color: white;
+}
+
+footer .div1 > h2 , footer > .div1 > p {
+    text-align: center;
+}
+
+footer .div1 > h2 {
+    padding: 20px 0;
+}
+
+footer .div1 > p {
+    cursor: pointer;
+    font-size: 13.5px;
+    padding: 0 20px;
+    line-height: 24px;
+    transition: 1s color;
+}
+
+footer .div1 > p:hover {
+    color: red;
+}
+
+footer .div2 {
+    width: 22%;
+    color: white;
+    text-align: center;
+}
+
+footer .div2 > h2 {
+    padding: 10px 0;
+}
+
+.grid-ctgre {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.grid-ctgre a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 12px;
+    font-size: 13px;
+    transition: 0.5s color;
+}
+
+.grid-ctgre a:hover {
+    color: red;
+}
+
+footer .div3 {
+    width: 32%;
+    min-height: 200px;
+    color: white;
+}
+
+footer .div3 > h2 {
+    text-align: center;
+    padding: 10px 0;   
+}
+
+footer .div3 > div {
+    min-height: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.que {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
+
+.que > a {
+    color: red;
+    font-size: 1.4vw;
+    font-family: 'Arial Narrow Bold';
+}
+
+hr {
+    background-color: white;
+    width: 70%;
+    display: block;
+    margin: 8px auto;
+}
+
+hr + div {
+    display: flex;
+}
+
+.copyright {
+    width: 70%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    padding: 15px 0;
+    margin: 0%;
+}
+
+.copyright > span {
+    margin-left: 10px;
+    text-transform: capitalize;
+    color: white;
+    font-size: 14px;
+    font-family: 'fantasy';
+    letter-spacing: 1px;
+}
+
+.moro-lang {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 30%;
+    height: 50px;
+}
+
+.language_parent {
+    border: 1px solid red;
+    padding: 9px 0;
+    width: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.language {
+    margin: 0;
+    color: white;
+    font-style: italic;
+}
+
+.morocco {
+    width: 100px;
+    color: white;
+    padding: 6px 0;
+    border: 1px solid red;
+    font-style: italic;
+    margin: 0 8px;
+    display: flex;
+    justify-content: space-evenly;
+}
+/*footer*/
+
+
+/* responsive screen */
+@media screen and (max-width: 1000px) {
+    .logo > span {
+        font-size: 5vw;
+    }
+
+    .logo + div > a {
+        font-size: 16px;
+    }
+    
+    .background_serie > .div1 {
+        width: 60%;
+    }
+    
+    .div1 > .title {
+        height: 30%;
+    }
+    
+    .background_serie > .div1 h2 {
+        font-size:6vw;
+        letter-spacing: 12px;
+    } 
+    
+    .div1 > .text {
+        height: fit-content;
+        padding: 20px 25px;
+    }
+    
+    .div1 > .text > p {
+        font-size: 1.7vw;
+    }
+
+    .background_serie > .div2 {
+        width: 40%;
+    }
+
+    .div2 > img {
+        transform: scale(0.85);
+    }
+
+    .div2 > img:hover {
+        transform: scale(0.95);
+    }
+
+    .acteurs_parent img {
+        width: 15vw;
+    }
+
+    .que > a {
+        font-size: 1.7vw;
+    }
+
+    footer .div2 {
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .div1 > .title {
+        margin-top: 40px;
+        height: 15%;
+    }
+    
+    .background_serie > .div1 h2 {
+        font-size:7vw;
+        letter-spacing: 10px;
+    }
+
+    .div1 > .text {
+        padding: 40px 25px;
+    }
+    
+    .div1 > .text > p {
+        font-size: 1.94vw;
+    }
+
+    .div2 > img {
+        transform: scale(0.75);
+    }
+
+    .div2 > img:hover {
+        transform: scale(0.85);
+    }
+
+    .photo_parent {
+        flex-wrap: wrap;
+    }
+    
+    .item1 , .item2 {
+        width: 48%;
+    }
+
+    .item3 {
+        margin-top: 20px;
+    }
+    
+    .photo_parent img {
+        width: 45vw;
+    }
+
+    video {
+        width: 90vw;
+    }
+
+    .acteurs_parent img {
+        width: 18vw;
+    }
+
+    .web-logo {
+        width: 20%;
+    }
+    
+    .web-logo > img {
+        height: 50px;
+        width: auto;
+    }
+
+    .alldiv {
+        flex-wrap: wrap;
+    }
+
+    footer .div1 , footer .div2{
+        width: 48%;
+    }
+
+    footer .div3 {
+        margin-top: 20px;
+        width: 65%;
+    }
+
+    .que > a {
+        font-size: 18px;
+    }
+
+    hr + div {
+        flex-direction: column;
+    }
+
+    .copyright {
+        width: 100%;
+        margin: 0;
+        padding: 5px 0;
+        height: fit-content;
+    }
+
+    .moro-lang {
+        width: 100%;
+    }
+
+    .language_parent , .morocco {
+        height: 37px;
+    }
+
+    .morocco {
+        padding: 5px 0;
+    }
+
+    .morocco > img {
+        height: 25px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .background1 {
+        height: fit-content;
+    }
+    
+    .ctgre {
+        height: 60px;
+    }
+
+    .background_serie {
+        height: 82vh;
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .background_serie > .div1 {
+        grid-area: 2 / 1;
+        height: 20%;
+        width: 100%;
+    }
+    
+    .background_serie > .div2 {
+        grid-area: 1 / 1;
+        height: 80%;
+        width: 100%;
+    }
+
+    .logo {
+        padding-top: 18px;
+    }
+
+    .logo > span {
+        margin-left: 15px;
+        font-size: 35px;
+    }
+
+    .logo + div {
+        margin-top: 18px;
+        margin-right: 15px;
+    }
+
+    .logo + div > a {
+        font-size: 14px;
+    }
+
+    .div1 > .title {
+        margin-top: -70px;
+        height: 30%;
+    }
+    
+    .background_serie > .div1 h2 {
+        font-size:35px;
+        letter-spacing: 5px;
+    }
+
+    .div1 > .text {
+        padding: 15px 15px;
+    }
+    
+    .div1 > .text > p {
+        font-size: 2.48vw;
+    }
+
+    .div2 > img {
+        transform: scale(0.65);
+    }
+
+    .div2 > img:hover {
+        transform: scale(0.65);
+    }
+
+    .background_body1 > h1 , .background_body2 > h1 {
+        letter-spacing: 2px;
+    }
+
+    .acteurs_parent > div {
+        width: 42%;
+    }
+
+    .acteurs_parent img {
+        width: 22vw;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .photo_parent {
+        flex-direction: column;
+    }
+    
+    .item1 , .item2 , .item3 {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .item3 {
+        margin: 0;
+    }
+    
+    .photo_parent img {
+        width: 85vw;
+    }
+
+    .photo_parent img:hover {
+        transform: scale(1);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .alldiv {
+        flex-direction: column;
+        align-content: center;
+    }
+
+    footer .div1 , footer .div2 , footer .div3 {
+        width: 90%;
+        margin: 8px 0;
+    }
+    
+    .que > a {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .background1 {
+        height: 4vh;
+    }
+    
+    .background_serie {
+        height: 85vh;
+    }
+    
+    .background_serie > .div1 {
+        height: 20%;
+    }
+    
+    .background_serie > .div2 {
+        height: 65%;
+    }
+
+    .div1 > .title {
+        margin-top: -110px;
+    }
+    
+    .background_serie > .div1 h2 {
+        font-size:30px;
+    }
+    
+    .div1 > .text {
+        padding: 20px 15px 0 15px;
+    }
+
+    .div1 > .text > p {
+        font-size: 3.01vw;
+    }
+
+    .div2 > img {
+        transform: scale(0.6);
+    }
+
+    .div2 > img:hover {
+        transform: scale(0.6);
+    }
+
+    .acteurs_parent img {
+        width: 26vw;
+    }
+}
+
+@media screen and (max-width: 385px) {
+    .div1 > .text > p {
+        font-size: 3.25vw;
+    }
+
+    .acteurs_parent img {
+        width: 29vw;
+    }
+}
+
+@media screen and (max-width: 357px) {
+    .div1 > .text {
+        padding: 10px 2px;
+    }
+    
+    .div1 > .text > p {
+        font-size: 3.54vw;
+    }
+}
+/* responsive screen */

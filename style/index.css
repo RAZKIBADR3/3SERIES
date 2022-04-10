@@ -1,0 +1,597 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+/* BACKGROUND */
+.background {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.bg-vedio1 {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+video {
+    position: absolute;
+    height: 130vh;
+    width: auto;
+    background-color: black;
+    top: 0;
+    left: 0;
+}
+
+.black {
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    background-color:black;
+    opacity: 0.7;
+}
+
+.div-line {
+    height: 4px;
+    background-color: #222222;
+}
+
+.background_BB , .background_GOT , .background_DARK {
+    position: relative;
+    height: 70vh;
+    background-size: cover;
+    display: flex;
+}
+
+.item1 {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*border: 1px solid white;*/
+}
+
+.item2 {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*border: 1px solid white;*/
+}
+
+.background_BB {
+    background-image: linear-gradient(rgb(0, 0, 0 , 0.75),rgb(0, 0, 0 , 0.75)), url('../background/BB_background.jpg');
+}
+
+.background_GOT {
+    background-image: linear-gradient(rgb(0, 0, 0 , 0.75),rgb(0, 0, 0 , 0.75)), url('../background/GOT_background.jpg');
+}
+
+.background_DARK {
+    background-image: linear-gradient(rgb(0, 0, 0 , 0.75),rgb(0, 0, 0 , 0.75)), url('../background/DARK_background.jpg');
+}
+/* BACKGROUND */
+
+
+/* logo and categoré */
+.ctgre {
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+
+.logo {
+    margin-top: 10px;
+    width: 44%;
+    position: relative;
+    z-index: 11;
+}
+
+.logo > span {
+    margin-left: 18px;
+    font-family:'Haettenschweiler';
+    color: red;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.ctgre > ul {
+    padding: 0;
+    width: 54%;
+    z-index: 11;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+li {
+    padding: 0 1px;
+}
+
+li a {
+    font-size: 1.2vw;
+    text-decoration: none;
+}
+
+.nav > span {
+    color:gray;
+}
+
+.HOME_text {
+    background-color: red;
+    padding: 8px 15px;
+    border-radius: 3px;
+    transition: 0.5s color;
+    color: white;
+}
+
+.HOME_text:hover {
+    color: black;
+}
+
+.BB_text:link , .BB_text:visited , .GOT_text:link , .GOT_text:visited , .DARK_text:link , .DARK_text:visited {
+    padding-top: 14px;
+    color: white;
+    transition: 0.7s color;
+}
+
+.BB_text:hover , .GOT_text:hover , .DARK_text:hover {
+    color: red;
+}
+
+.BB_text > span , .GOT_text > span , .DARK_text > span {
+    display: block;
+    margin-top: 3%;
+    width: 0%;
+    background-color: red;
+    height: 2px;
+    transition: 0.7s width;
+}
+
+.BB_text:hover > span , .GOT_text:hover > span , .DARK_text:hover > span {
+    width: 100%;
+}
+
+.HELP_text:link , .HELP_text:visited {
+    padding-top: 14px;
+    color: white;
+    transition: 0.7s color;
+}
+
+.HELP_text:hover {
+    color: red;
+}
+
+.HELP_text > span {
+    display: block;
+    margin: 3% auto 0 auto;
+    width: 20%;
+    background-color: red;
+    height: 2px;
+    transition: 0.7s width;
+}
+
+.HELP_text:hover span {
+    width: 100%;
+}
+/* logo and categoré */
+
+
+/* title */
+.title_parent {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    z-index: 11;
+    position: absolute;
+    margin-top: 320px;
+}
+
+.title {
+    text-align: center;
+    color: white;
+    font-family: 'Haettenschweiler';
+    font-weight: lighter;
+    letter-spacing: 20px;
+    cursor: pointer;
+    font-size: 5.5vw;
+    transition: 0.7s font-size,0.7s color;
+}
+
+.title:hover {
+    font-size: 6.5vw;
+    color: red;
+}
+/* title */
+
+
+/* series image */
+#BB , #GOT , #DARK {
+    width: 280px;
+    height: 400px;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.6), 0 6px 20px 0 rgba(255, 255, 255, 0.6);
+    transition: 0.7s transform , 0.7s filter;
+}
+
+#BB:hover , #GOT:hover , #DARK:hover{
+    transform: scale(1.1);
+    filter:brightness(72%);
+}
+/* series image */
+
+
+/* series name */
+.BB_name , .GOT_name , .DARK_name {
+    cursor: pointer;
+    color: white;
+    font-size: 6vw;
+    font-family: 'Haettenschweiler';
+    font-weight: lighter;
+    letter-spacing: 20px;
+    text-align: center;
+    transition: 0.7s color;
+}
+
+.GOT_name {
+    font-size: 5.4vw;
+}
+
+.BB_name:hover , .GOT_name:hover , .DARK_name:hover {
+    color: red;
+}
+/* series name */
+
+
+/*footer*/
+footer {
+    background-color: black;
+    min-height: 55vh;
+    border-top: 6px solid #222222;
+}
+
+.web-logo {
+    width: 10%;
+    margin-left: 30px;
+    padding: 20px 0 0 0;
+}
+
+.web-logo > img {
+    height: 5vw;
+    width: auto;
+}
+
+.alldiv {
+    display: flex;
+    justify-content: space-evenly;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.alldiv h2 {
+    font-family: 'Haettenschweiler';
+    letter-spacing: 4px;
+    font-size: 24px;
+}
+
+footer .div1 {
+    width: 32%;
+    color: white;
+}
+
+footer .div1 > h2 , footer > .div1 > p {
+    text-align: center;
+}
+
+footer .div1 > h2 {
+    padding: 20px 0;
+}
+
+footer .div1 > p {
+    cursor: pointer;
+    font-size: 13.5px;
+    padding: 0 20px;
+    line-height: 24px;
+    
+    transition: 1s color;
+}
+
+footer .div1 > p:hover {
+    color: red;
+}
+
+footer .div2 {
+    width: 22%;
+    color: white;
+    text-align: center;
+}
+
+footer .div2 > h2 {
+    padding: 10px 0;
+}
+
+.grid-ctgre {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.grid-ctgre a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 12px;
+    font-size: 13px;
+    transition: 0.5s color;
+}
+
+.grid-ctgre a:hover {
+    color: red;
+}
+
+footer .div3 {
+    width: 32%;
+    min-height: 200px;
+    color: white;
+}
+
+footer .div3 > h2 {
+    text-align: center;
+    padding: 10px 0;   
+}
+
+footer .div3 > div {
+    min-height: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.que {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
+
+.que > a {
+    color: red;
+    font-size: 1.4vw;
+    font-family: 'Arial Narrow Bold';
+}
+
+hr {
+    background-color: white;
+    width: 70%;
+    display: block;
+    margin: 8px auto;
+}
+
+hr + div {
+    display: flex;
+}
+
+.copyright {
+    width: 70%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    padding: 15px 0;
+    margin: 0%;
+}
+
+.copyright > span {
+    margin-left: 10px;
+    text-transform: capitalize;
+    color: white;
+    font-size: 14px;
+    font-family: 'fantasy';
+    letter-spacing: 1px;
+}
+
+.moro-lang {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 30%;
+    height: 50px;
+}
+
+.language_parent {
+    border: 1px solid red;
+    padding: 9px 0;
+    width: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.language {
+    margin: 0;
+    color: white;
+    font-style: italic;
+}
+
+.morocco {
+    width: 100px;
+    color: white;
+    padding: 6px 0;
+    border: 1px solid red;
+    font-style: italic;
+    margin: 0 8px;
+    display: flex;
+    justify-content: space-evenly;
+}
+/*footer*/
+
+
+/* responsive screen */
+@media screen and (max-width: 1000px) {
+    .logo {
+        width: 30%;
+        margin-top: 20px;
+    }
+
+    
+    .ctgre > ul {
+        width: 69%;
+    }
+    
+    li a {
+        font-size: 1.5vw;
+    }
+
+    .title {
+        font-size: 7.5vw;
+    }
+
+    .title:hover {
+        font-size: 9vw;
+    }
+
+    #BB , #GOT , #DARK {
+        width: 220px;
+        height: 320px;
+    }
+
+    .BB_name , .GOT_name , .DARK_name {
+        font-size: 6vw;
+        letter-spacing: 15px;
+    }
+    
+    .que > a {
+        font-size: 1.7vw;
+    }
+
+    footer .div2 {
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .ctgre > ul , .ctgre > ul > li {
+        display: none;
+    }
+
+    .d-flex > span {
+        display: none;
+    }
+    
+    .web-logo {
+        width: 20%;
+    }
+    
+    .web-logo > img {
+        height: 50px;
+        width: auto;
+    }
+    
+    .alldiv {
+        flex-wrap: wrap;
+    }
+
+    footer .div1 , footer .div2{
+        width: 48%;
+    }
+
+    footer .div3 {
+        margin-top: 20px;
+        width: 65%;
+    }
+
+    .que > a {
+        font-size: 18px;
+    }
+
+    hr + div {
+        flex-direction: column;
+    }
+
+    .copyright {
+        width: 100%;
+        margin: 0;
+        padding: 5px 0;
+        height: fit-content;
+    }
+
+    .moro-lang {
+        width: 100%;
+    }
+
+    .language_parent , .morocco {
+        height: 37px;
+    }
+
+    .morocco {
+        padding: 5px 0;
+    }
+
+    .morocco > img {
+        height: 25px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .title {
+        font-size: 10vw;
+    }
+
+    .title:hover {
+        font-size: 10vw;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .background_BB , .background_GOT , .background_DARK {
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .item1 , .item2 {
+        width: 100%;
+    }
+
+    .item1 {
+        grid-area: 2 / 1;
+        height: 40%;
+    }
+
+    .item2 {
+        grid-area: 1 / 1;
+        height: 100%;
+    }
+
+    .BB_name , .GOT_name , .DARK_name {
+        font-size: 40px;
+        letter-spacing: 5px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .alldiv {
+        flex-direction: column;
+        align-content: center;
+    }
+
+    footer .div1 , footer .div2 , footer .div3 {
+        width: 90%;
+        margin: 8px 0;
+    }
+    
+    .que > a {
+        font-size: 16px;
+    }
+}
+/* responsive screen */
